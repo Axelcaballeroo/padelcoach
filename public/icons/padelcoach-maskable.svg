@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">PadelCoach maskable icon</title>
+  <rect width="512" height="512" fill="#11140f"/>
+  <circle cx="374" cy="136" r="36" fill="#25c26e"/>
+  <path d="M118 146c0-30 24-54 54-54h96c63 0 112 47 112 107s-49 107-112 107h-56v76c0 22-18 40-40 40h-14c-22 0-40-18-40-40V146Zm94 74h54c22 0 39-14 39-34s-17-34-39-34h-54v68Z" fill="#f7f8f4"/>
+</svg>
