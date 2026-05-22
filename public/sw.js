@@ -1,5 +1,10 @@
 const CACHE_NAME = "padelcoach-v1";
-const APP_SHELL = ["/offline", "/icons/padelcoach-icon.svg", "/icons/padelcoach-maskable.svg"];
+const APP_SHELL = [
+  "/offline",
+  "/icons/padelcoach-icon-192.png",
+  "/icons/padelcoach-icon-512.png",
+  "/icons/apple-touch-icon.png",
+];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(

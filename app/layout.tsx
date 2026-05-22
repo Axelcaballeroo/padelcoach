@@ -15,12 +15,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://padelcoach.app"),
-  title: {
-    default: "PadelCoach",
-    template: "%s | PadelCoach",
-  },
-  description:
-    "Gestiona clases, alumnos, abonos, pagos y agenda semanal desde la cancha.",
+  title: "PadelCoach",
+  description: "Agenda inteligente para profesores de pádel",
   applicationName: "PadelCoach",
   manifest: "/manifest.webmanifest",
   appleWebApp: {
@@ -33,8 +29,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "PadelCoach",
-    description:
-      "La app mobile-first para profesores de padel: agenda, alumnos, abonos y pagos.",
+    description: "Agenda inteligente para profesores de pádel",
     url: "/",
     siteName: "PadelCoach",
     type: "website",
@@ -50,18 +45,35 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "PadelCoach",
-    description:
-      "Agenda, alumnos, abonos y pagos para profesores de padel.",
+    description: "Agenda inteligente para profesores de pádel",
     images: ["/og"],
   },
   icons: {
-    icon: [{ url: "/icon", sizes: "512x512", type: "image/png" }],
-    apple: [{ url: "/apple-icon", sizes: "180x180", type: "image/png" }],
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      {
+        url: "/icons/padelcoach-icon-192.png",
+        sizes: "192x192",
+        type: "image/png",
+      },
+      {
+        url: "/icons/padelcoach-icon-512.png",
+        sizes: "512x512",
+        type: "image/png",
+      },
+    ],
+    apple: [
+      {
+        url: "/icons/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
   },
 };
 
 export const viewport: Viewport = {
-  themeColor: "#f7f8f4",
+  themeColor: "#16A34A",
   colorScheme: "light",
   width: "device-width",
   initialScale: 1,
